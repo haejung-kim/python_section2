@@ -4,7 +4,7 @@ import sys
 import io
 import urllib.request as dw
 
-
+print(hi)
 
 
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
